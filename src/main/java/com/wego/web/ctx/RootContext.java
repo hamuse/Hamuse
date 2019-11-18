@@ -23,7 +23,7 @@ import com.zaxxer.hikari.HikariDataSource;
 @Configuration
 @ComponentScan(basePackages= {"com.wego.web"})
 @Import({
-	MyBatisContext.class, ServletContext.class
+	 ServletContext.class
 })
 public class RootContext {
 	@Bean
